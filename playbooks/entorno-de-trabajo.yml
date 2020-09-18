@@ -7,7 +7,7 @@
     - name: "user"
       prompt: "usuario"
       private: no
-      default: "ndelucca"
+      default: "agimenez"
 
     - name: "ansible_become_pass"
       prompt: "passwd"
@@ -51,9 +51,9 @@
         name: chrome
       tags: chrome
 
-    - import_role:
-        name: simplenote
-      tags: simplenote
+    # - import_role:
+    #     name: simplenote
+    #   tags: simplenote
 
     - import_role:
         name: vagrant

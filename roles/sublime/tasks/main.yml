@@ -12,7 +12,7 @@
 
   - name: Settings Sublime
     git:
-      repo: git@github.com:ndelucca/sublime-settings.git
+      repo: git@github.com:andrezgz/sublime-settings.git
       dest: "{{user_home_path}}/.config/sublime-text-3/"
 
   when: repos|bool
