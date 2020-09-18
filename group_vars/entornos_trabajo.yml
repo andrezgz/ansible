@@ -3,11 +3,7 @@ ansible_host: localhost
 ansible_connection: local
 ansible_python_interpreter: /usr/bin/python3
 
-nombre_equipo_casa: ndeluccax
-email_local: nazadelucca@gmail.com
-email_remoto: ndelucca@educativa.com
-
-email: "{{ email_local if ansible_hostname == nombre_equipo_casa else email_remoto }}"
+email: agimenez@educativa.com
 
 user_home_path: /home/{{user}}
 bin_dir_path: /usr/local/bin

@@ -23,9 +23,9 @@
         name: bash-customs
       tags: bash-customs
 
-    - import_role:
-        name: fonts
-      tags: fonts
+    # - import_role:
+    #     name: fonts
+    #  tags: fonts
 
     - import_role:
         name: apps
