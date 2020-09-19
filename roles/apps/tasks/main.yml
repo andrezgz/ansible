@@ -6,7 +6,6 @@
       name: "{{item}}"
     with_items:
       - vim.tiny # despues instalamos el full
-      - vlc # no me gusta
       - gimp # no me gusta
       - onboard # no me gusta
       # - thunderbird
