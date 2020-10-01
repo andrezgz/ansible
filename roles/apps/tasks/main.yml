@@ -34,7 +34,7 @@
       - inkscape # Drawings in SVG
       # - mysql-workbench-community # MySql GUI
       - samba # Dancing application?
-      - numlockx # The most important app in the world
+      - numlockx # numlockx on -> add task
       # - safeeyes # Brake reminder
       - redshift # Bluelight filter
     become: yes
