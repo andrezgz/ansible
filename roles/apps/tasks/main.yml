@@ -37,6 +37,7 @@
       - numlockx # numlockx on -> add task
       # - safeeyes # Brake reminder
       - redshift # Bluelight filter
+      - wakeonlan # boot computers on lan
     become: yes
 
   - name: Chequeamos si hay algun archivo de config de mycli
